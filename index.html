@@ -1,0 +1,90 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <title>Bài tập tính tiền quyên góp</title>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+  </head>
+  <body>
+    <hr>
+    <div class="container">
+        <div class="row">
+            <div class="col-md-6">
+                <div class="card">
+                    <div class="card-header">
+                        Tính tiền quyên góp từ doanh thu của phim <br><br>
+                        Giá vé người lớn : 100.000 (VND) <br>
+                        Giá vé trẻ em : 50.000 (VND) <br>
+                        Trích từ thiện : 10%
+                    </div>
+                    <div class="card-body">
+                        <div class="form-group">
+                            <label>Tên phim</label>
+                            <input id="tenPhim" type="text" class="form-control">
+                        </div>
+                        <div class="form-group">
+                            <label for="">Số vé người lớn đã bán</label>
+                            <input id="veNguoiLon" class="form-control" type="number">
+                        </div>
+                        <div class="form-group">
+                            <label for="">Số vé trẻ em đã bán</label>
+                            <input id="veTreEm" class="form-control" type="number">
+                        </div>
+                        <button id="xuat" class="btn btn-danger">Xuất thông tin</button>
+                    </div>
+                    <div class="card-footer text-muted">
+                        <table class="table">
+                            <tbody>
+                              <tr>
+                                <th scope="row">Tên phim</th>
+                                <td><p id="inTenPhim"></p></td>
+                              </tr>
+                              <tr>
+                                <th scope="row">Số vé đã bán</th>
+                                <td><p id="veDaBan"></p></td>
+                              </tr>
+                              <tr>
+                                <th scope="row">Doanh thu</th>
+                                <td><p id="doanhThu"></p></td>
+                              </tr>
+                              <tr>
+                                <th scope="row">Trích % từ thiện</th>
+                                <td><p id="trichTuThien"></p></td>
+                              </tr>
+                              <tr>
+                                <th scope="row">Tổng tiền trích từ thiện</th>
+                                <td><p id="tongTienTuThien"></p></td>
+                              </tr>
+                              <tr>
+                                <th scope="row">Tổng thu được sau khi trừ</th>
+                                <td><p id="tienThuDuoc"></p></td>
+                              </tr>
+                            </tbody>
+                          </table> 
+                        
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+      
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+  
+<script src="./js/main.js"></script>
+</body>
+</html>
